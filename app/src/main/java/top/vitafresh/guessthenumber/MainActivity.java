@@ -79,6 +79,6 @@ public class MainActivity extends AppCompatActivity {
         Random rnd = new Random();
         randomNum = rnd.nextInt(maxNumber);
         tries = 0;
-        maxTries = getMaxTries(maxNumber);
+        maxTries = getMaxTries(maxNumber)+1;
     }
 }
